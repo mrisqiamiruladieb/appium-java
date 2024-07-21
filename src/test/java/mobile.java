@@ -1,3 +1,4 @@
+import io.appium.java_client.AppiumBy;
 import io.appium.java_client.android.AndroidDriver;
 import org.junit.Test;
 import org.openqa.selenium.By;
@@ -39,17 +40,17 @@ public class mobile {
 
         // process flow
         // input name, weight, height
-        driver.findElement(By.id("com.fghilmany.dietmealapp:id/et_name")).sendKeys("Mike");
+        driver.findElement(AppiumBy.id("com.fghilmany.dietmealapp:id/et_name")).sendKeys("Mike");
         driver.findElement(By.id("com.fghilmany.dietmealapp:id/et_weight")).sendKeys("75");
-        driver.findElement(By.id("com.fghilmany.dietmealapp:id/et_height")).sendKeys("175");
+        driver.findElement(AppiumBy.id("com.fghilmany.dietmealapp:id/et_height")).sendKeys("175");
         // Click on male radio button
         driver.findElement(By.id("com.fghilmany.dietmealapp:id/rb_male")).click();
         // Click on next button
-        driver.findElement(By.id("com.fghilmany.dietmealapp:id/bt_next")).click();
+        driver.findElement(AppiumBy.id("com.fghilmany.dietmealapp:id/bt_next")).click();
         // Click option radio button
         driver.findElement(By.id("com.fghilmany.dietmealapp:id/rb_medium")).click();
         // Click on finish button
-        driver.findElement(By.id("com.fghilmany.dietmealapp:id/bt_finish")).click();
+        driver.findElement(AppiumBy.id("com.fghilmany.dietmealapp:id/bt_finish")).click();
 
         // assertion
         driver.findElement(By.id("com.fghilmany.dietmealapp:id/tv_header_name")).isDisplayed();

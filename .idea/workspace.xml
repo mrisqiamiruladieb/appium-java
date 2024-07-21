@@ -4,9 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d997beca-91a1-4f27-a8ce-51609b8a6648" name="Changes" comment="feat: desired capabilities with appPackage and appActivity">
+    <list default="true" id="d997beca-91a1-4f27-a8ce-51609b8a6648" name="Changes" comment="feat: get the app directory with System.getProperty()">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/mobile.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/mobile.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -23,6 +22,12 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="GithubPullRequestsUISettings"><![CDATA[{
+  "selectedUrlAndAccountId": {
+    "url": "https://github.com/mrisqiamiruladieb/appium-java.git",
+    "accountId": "61bd751d-780b-43a0-918f-4b763c3b2781"
+  }
+}]]></component>
   <component name="ProblemsViewState">
     <option name="selectedTabId" value="DEPENDENCY_CHECKER_PROBLEMS_TAB" />
   </component>
@@ -107,7 +112,15 @@
       <option name="project" value="LOCAL" />
       <updated>1721548815326</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="feat: get the app directory with System.getProperty()">
+      <option name="closed" value="true" />
+      <created>1721549370516</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1721549370516</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -115,6 +128,7 @@
     <MESSAGE value="feat: install module" />
     <MESSAGE value="feat: test automation example" />
     <MESSAGE value="feat: desired capabilities with appPackage and appActivity" />
-    <option name="LAST_COMMIT_MESSAGE" value="feat: desired capabilities with appPackage and appActivity" />
+    <MESSAGE value="feat: get the app directory with System.getProperty()" />
+    <option name="LAST_COMMIT_MESSAGE" value="feat: get the app directory with System.getProperty()" />
   </component>
 </project>

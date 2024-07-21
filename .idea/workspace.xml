@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d997beca-91a1-4f27-a8ce-51609b8a6648" name="Changes" comment="feat: get the app directory with System.getProperty()">
+    <list default="true" id="d997beca-91a1-4f27-a8ce-51609b8a6648" name="Changes" comment="feat: AppiumBy locators">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -22,6 +22,12 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
+  "lastFilter": {
+    "state": "OPEN",
+    "assignee": "mrisqiamiruladieb"
+  }
+}]]></component>
   <component name="GithubPullRequestsUISettings"><![CDATA[{
   "selectedUrlAndAccountId": {
     "url": "https://github.com/mrisqiamiruladieb/appium-java.git",
@@ -120,8 +126,27 @@
       <option name="project" value="LOCAL" />
       <updated>1721549370516</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="feat: AppiumBy locators">
+      <option name="closed" value="true" />
+      <created>1721556439686</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1721556439686</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Initial Commit" />
@@ -129,6 +154,7 @@
     <MESSAGE value="feat: test automation example" />
     <MESSAGE value="feat: desired capabilities with appPackage and appActivity" />
     <MESSAGE value="feat: get the app directory with System.getProperty()" />
-    <option name="LAST_COMMIT_MESSAGE" value="feat: get the app directory with System.getProperty()" />
+    <MESSAGE value="feat: AppiumBy locators" />
+    <option name="LAST_COMMIT_MESSAGE" value="feat: AppiumBy locators" />
   </component>
 </project>

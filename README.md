@@ -7,15 +7,22 @@ Mobile Automation (Android)
     - Click *Load Maven Changes (logo)* to install or sync the dependency
 
 ## Steps
-- ([Reference](https://github.com/mrisqiamiruladieb/myskill-live-CucumberTest/blob/master/README.md)) **Create** a scenario file. _Example:_ src/test/java/cucumber/features/**Register.feature**
-- **Create** step def script file by **hovering** over _the step scenario_ in _scenario.feature_ (**lamp icon**) or create manually. _Example:_ src/test/java/cucumber/stepDef/**MyStepdefs.java**
-- **Create** a runner file. _Example:_ src/test/java/cucumber/runner/**runner.java**
-- **Run Test**
+- _BDD_
+  - **Create** a scenario file. _Example:_ src/test/java/cucumber/features/**Register.feature**
+  - **Create** step def script file by **hovering** over _the step scenario_ in _scenario.feature_ (**lamp icon**) or create manually. _Example:_ src/test/java/cucumber/stepDef/**MyStepdefs.java**
+
+## Run Test
   - _Method 1_
     - **Click** _run_ (**play icon**) on **scenario.feature**
   - _Method 2_
+    - **Create** a runner file. _Example:_ src/test/java/cucumber/runner/**runner.java**
     - **Click** _run_ (**play icon**) on **runner.java**
+
+## HTML report
 - **Open** the generated _html report_ in a **browser** (_the file path_ in runner.java)
+
+## Helper
+- ([Reference](https://github.com/mrisqiamiruladieb/myskill-live-CucumberTest/blob/master/README.md))
 
 ## Issues and Solutions
 - **No suggestion** to _create step def_ when **hovering** over _scenario.feature_ (**lamp icon**)

@@ -4,9 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d997beca-91a1-4f27-a8ce-51609b8a6648" name="Changes" comment="feat: create a scenario file">
-      <change afterPath="$PROJECT_DIR$/src/test/java/cucumber/runner/runner.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/cucumber/stepDef/MyStepdefs.java" afterDir="false" />
+    <list default="true" id="d997beca-91a1-4f27-a8ce-51609b8a6648" name="Changes" comment="feat: create a runner file">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
     </list>
@@ -25,7 +23,7 @@
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="master" />
+        <entry key="$PROJECT_DIR$" value="bdd" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -227,7 +225,23 @@
       <option name="project" value="LOCAL" />
       <updated>1721573337431</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="feat: create a step def script file">
+      <option name="closed" value="true" />
+      <created>1721575338365</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1721575338365</updated>
+    </task>
+    <task id="LOCAL-00011" summary="feat: create a runner file">
+      <option name="closed" value="true" />
+      <created>1721575657958</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1721575657958</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -251,6 +265,8 @@
     <MESSAGE value="ignore this update" />
     <MESSAGE value="feat: install cucumber library" />
     <MESSAGE value="feat: create a scenario file" />
-    <option name="LAST_COMMIT_MESSAGE" value="feat: create a scenario file" />
+    <MESSAGE value="feat: create a step def script file" />
+    <MESSAGE value="feat: create a runner file" />
+    <option name="LAST_COMMIT_MESSAGE" value="feat: create a runner file" />
   </component>
 </project>

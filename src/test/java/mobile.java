@@ -21,7 +21,8 @@ public class mobile {
         capabilities.setCapability("platformVersion", "14.0");
         capabilities.setCapability("automationName", "UiAutomator2");
         // set apk file directory, install, and run the app
-        capabilities.setCapability("app", "D:\\belajar\\appium-java\\src\\test\\java\\apk\\Diet_meal.apk");
+        capabilities.setCapability("app", System.getProperty("user.dir") + "\\src\\test\\java\\apk\\Diet_meal.apk");
+//        capabilities.setCapability("app", "D:\\belajar\\appium-java\\src\\test\\java\\apk\\Diet_meal.apk");
         // run the installed app
 //        capabilities.setCapability("appPackage", "com.fghilmany.dietmealapp");
 //        capabilities.setCapability("appActivity", ".ui.main.MainActivity");

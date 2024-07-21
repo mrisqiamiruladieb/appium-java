@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d997beca-91a1-4f27-a8ce-51609b8a6648" name="Changes" comment="feat: test automation example">
+    <list default="true" id="d997beca-91a1-4f27-a8ce-51609b8a6648" name="Changes" comment="feat: desired capabilities with appPackage and appActivity">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/mobile.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/mobile.java" afterDir="false" />
     </list>
@@ -99,13 +99,22 @@
       <option name="project" value="LOCAL" />
       <updated>1721491833530</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="feat: desired capabilities with appPackage and appActivity">
+      <option name="closed" value="true" />
+      <created>1721548815326</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1721548815326</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Initial Commit" />
     <MESSAGE value="feat: install module" />
     <MESSAGE value="feat: test automation example" />
-    <option name="LAST_COMMIT_MESSAGE" value="feat: test automation example" />
+    <MESSAGE value="feat: desired capabilities with appPackage and appActivity" />
+    <option name="LAST_COMMIT_MESSAGE" value="feat: desired capabilities with appPackage and appActivity" />
   </component>
 </project>

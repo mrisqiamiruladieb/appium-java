@@ -10,6 +10,9 @@ Mobile Automation (Android)
 - _BDD_
   - **Create** a scenario file. _Example:_ src/test/java/cucumber/features/**Register.feature**
   - **Create** step def script file by **hovering** over _the step scenario_ in _scenario.feature_ (**lamp icon**) or create manually. _Example:_ src/test/java/cucumber/stepDef/**MyStepdefs.java**
+- _TDD_
+  - **Create** a scenario data file. _Example:_ src/test/java/cucumber/features/**RegisterTDD.feature**
+  - **Create** step def tdd script file by **hovering** over _the step scenario_ in _scenario.feature_ (**lamp icon**) or create manually. _Example:_ src/test/java/cucumber/stepDef/**MyStepdefs.java**
 
 ## Run Test
   - _Method 1_
@@ -27,3 +30,5 @@ Mobile Automation (Android)
 ## Issues and Solutions
 - **No suggestion** to _create step def_ when **hovering** over _scenario.feature_ (**lamp icon**)
   - _Solution:_ **install plugin** cucumber for java
+- Run test **method 1** error
+  - _Solution:_ **Click** _run_ (**play icon**) &rarr; **Debug** on **scenario.feature**

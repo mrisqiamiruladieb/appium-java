@@ -66,4 +66,24 @@ public class MyStepdefs {
         // assertion
         driver.findElement(By.id("com.fghilmany.dietmealapp:id/tv_header_name")).isDisplayed();
     }
+
+    @When("^Masukan Data (.*), (.*), (.*) sebagai nama, berat, tinggi$")
+    public void masukanDataNameWeightHeightSebagaiNamaBeratTinggi(String name, String weight, String height) {
+        // input name, weight, height
+        driver.findElement(AppiumBy.id("com.fghilmany.dietmealapp:id/et_name")).sendKeys(name);
+        driver.findElement(By.id("com.fghilmany.dietmealapp:id/et_weight")).sendKeys(weight);
+        driver.findElement(AppiumBy.id("com.fghilmany.dietmealapp:id/et_height")).sendKeys(height);
+        // Click on male radio button
+        driver.findElement(By.id("com.fghilmany.dietmealapp:id/rb_male")).click();
+        // Click on next button
+        driver.findElement(AppiumBy.id("com.fghilmany.dietmealapp:id/bt_next")).click();
+    }
+
+    @Then("^Pengguna (.*) di beranda Diet App$")
+    public void penggunaStatusDiBerandaDietApp(String status) {
+        if (status == "Passed"){
+            // assertion
+            driver.findElement(By.id("com.fghilmany.dietmealapp:id/tv_header_name")).isDisplayed();
+        }
+    }
 }

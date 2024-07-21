@@ -22,6 +22,10 @@ public class mobile {
         capabilities.setCapability("automationName", "UiAutomator2");
         // set apk file directory, install, and run the app
         capabilities.setCapability("app", "D:\\belajar\\appium-java\\src\\test\\java\\apk\\Diet_meal.apk");
+        // run the installed app
+//        capabilities.setCapability("appPackage", "com.fghilmany.dietmealapp");
+//        capabilities.setCapability("appActivity", ".ui.main.MainActivity");
+//        capabilities.setCapability("appActivity", "com.fghilmany.dietmealapp.ui.main.MainActivity");
         capabilities.setCapability("autoGrantPermissions", true); // set auto accept permission request setting
         capabilities.setCapability("autoAcceptAlerts", true); // set auto accept all possible appearing alert
 

@@ -4,11 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d997beca-91a1-4f27-a8ce-51609b8a6648" name="Changes" comment="feat: install module">
-      <change afterPath="$PROJECT_DIR$/src/test/java/apk/Diet_meal.apk" afterDir="false" />
+    <list default="true" id="d997beca-91a1-4f27-a8ce-51609b8a6648" name="Changes" comment="feat: test automation example">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/mobile.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/mobile.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -93,12 +91,21 @@
       <option name="project" value="LOCAL" />
       <updated>1721483027339</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="feat: test automation example">
+      <option name="closed" value="true" />
+      <created>1721491833530</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1721491833530</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Initial Commit" />
     <MESSAGE value="feat: install module" />
-    <option name="LAST_COMMIT_MESSAGE" value="feat: install module" />
+    <MESSAGE value="feat: test automation example" />
+    <option name="LAST_COMMIT_MESSAGE" value="feat: test automation example" />
   </component>
 </project>

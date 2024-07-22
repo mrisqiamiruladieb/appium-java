@@ -1,5 +1,6 @@
 package cucumber.stepDef;
 
+import cucumber.mobilePage.homePage;
 import io.appium.java_client.AppiumBy;
 import io.appium.java_client.android.AndroidDriver;
 import io.cucumber.java.en.And;
@@ -43,10 +44,10 @@ public class MyStepdefs {
 
     @When("Masukan Data")
     public void masukanData() {
+        // pom - Call the element locator and element method
         // input name, weight, height
-        driver.findElement(AppiumBy.id("com.fghilmany.dietmealapp:id/et_name")).sendKeys("Mike");
-        driver.findElement(By.id("com.fghilmany.dietmealapp:id/et_weight")).sendKeys("75");
-        driver.findElement(AppiumBy.id("com.fghilmany.dietmealapp:id/et_height")).sendKeys("175");
+        homePage homePages = new homePage(driver);
+        homePages.inputForm("Mike", "75", "175");
         // Click on male radio button
         driver.findElement(By.id("com.fghilmany.dietmealapp:id/rb_male")).click();
         // Click on next button
@@ -69,10 +70,10 @@ public class MyStepdefs {
 
     @When("^Masukan Data (.*), (.*), (.*) sebagai nama, berat, tinggi$")
     public void masukanDataNameWeightHeightSebagaiNamaBeratTinggi(String name, String weight, String height) {
+        // pom - Call the element locator and element method
         // input name, weight, height
-        driver.findElement(AppiumBy.id("com.fghilmany.dietmealapp:id/et_name")).sendKeys(name);
-        driver.findElement(By.id("com.fghilmany.dietmealapp:id/et_weight")).sendKeys(weight);
-        driver.findElement(AppiumBy.id("com.fghilmany.dietmealapp:id/et_height")).sendKeys(height);
+        homePage homePages = new homePage(driver);
+        homePages.inputForm(name, weight, height);
         // Click on male radio button
         driver.findElement(By.id("com.fghilmany.dietmealapp:id/rb_male")).click();
         // Click on next button

@@ -8,6 +8,8 @@ import java.net.MalformedURLException;
 import java.net.URL;
 import java.util.concurrent.TimeUnit;
 
+import cucumber.mobilePage.homePage;
+
 public class mobile {
     public static AndroidDriver driver; // initialize android driver for appium
     public static DesiredCapabilities capabilities; // initialize desired capabilities for device setup
@@ -39,10 +41,10 @@ public class mobile {
         driver.manage().timeouts().implicitlyWait(60, TimeUnit.SECONDS);
 
         // process flow
+        // pom - Call the element locator and element method
         // input name, weight, height
-        driver.findElement(AppiumBy.id("com.fghilmany.dietmealapp:id/et_name")).sendKeys("Mike");
-        driver.findElement(By.id("com.fghilmany.dietmealapp:id/et_weight")).sendKeys("75");
-        driver.findElement(AppiumBy.id("com.fghilmany.dietmealapp:id/et_height")).sendKeys("175");
+        homePage homePages = new homePage(driver);
+        homePages.inputForm("Mike", "75", "175");
         // Click on male radio button
         driver.findElement(By.id("com.fghilmany.dietmealapp:id/rb_male")).click();
         // Click on next button

@@ -2,6 +2,7 @@
 Mobile Automation (Android)
 
 ## Pre-requisites
+- Make sure to **have applied** the [first prerequisites](https://github.com/mrisqiamiruladieb/appium-java/tree/master?tab=readme-ov-file#pre-requisites)
 - Go to **pom.xml** *add dependencies tag* and *add the following dependencies* to it:
     - Go to [Cucumber Java](https://mvnrepository.com/artifact/io.cucumber/cucumber-java) and [Cucumber JUnit](https://mvnrepository.com/artifact/io.cucumber/cucumber-junit), *copy* the content on **the Maven navbar** both, and *paste* it inside the dependencies tag
     - Click *Load Maven Changes (logo)* to install or sync the dependency

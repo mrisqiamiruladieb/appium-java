@@ -4,7 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d997beca-91a1-4f27-a8ce-51609b8a6648" name="Changes" comment="feat: bdd step updates" />
+    <list default="true" id="d997beca-91a1-4f27-a8ce-51609b8a6648" name="Changes" comment="feat: bdd step updates">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -155,10 +158,10 @@
     <recent_temporary>
       <list>
         <item itemvalue="JUnit.runner" />
-        <item itemvalue="Cucumber Java.Feature: RegisterTDD" />
-        <item itemvalue="Cucumber Java.Feature: Register" />
         <item itemvalue="JUnit.mobile" />
         <item itemvalue="Cucumber Java.Scenario: Sukses Register" />
+        <item itemvalue="Cucumber Java.Feature: RegisterTDD" />
+        <item itemvalue="Cucumber Java.Feature: Register" />
       </list>
     </recent_temporary>
   </component>

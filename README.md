@@ -22,6 +22,7 @@ Mobile Automation (Android)
     - **Click** _run_ (**play icon**) on **runner.java**
 
 ## HTML report
+- **After** _running_ with _method 2_
 - **Open** the generated _html report_ in a **browser** (_the file path_ in runner.java)
 
 ## Helper
